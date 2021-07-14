@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+        package="com.mhji.a2021_hackathon_android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_icon"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_icon_round"
+            android:supportsRtl="true"
+            android:theme="@style/Theme.2021_hackathon_android"
+            android:usesCleartextTraffic="true">
+        <activity android:name=".BrokerLoginActivity"/>
+        <activity android:name=".LoginSelectActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PriceActivity" />
+        <activity android:name=".BrokerRequestActivity" />
+        <activity android:name=".CommonRequestActivity" />
+        <activity android:name=".BrokerAddActivity" />
+        <activity android:name=".CommonAddActivity" />
+        <activity android:name=".BrokerMainActivity" />
+        <activity android:name=".BrokerJoinActivity" />
+        <activity android:name=".CommonJoinActivity" />
+        <activity android:name=".JoinActivity" />
+        <activity android:name=".CommonLoginActivity">
+        </activity>
+        <activity android:name=".CommonMainActivity" />
+    </application>
+
+</manifest>
